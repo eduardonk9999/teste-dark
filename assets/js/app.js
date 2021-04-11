@@ -3,11 +3,13 @@ $(document).ready(function () {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://www.darksidebooks.com.br/api/catalog_system/pub/products/search?fq",
+        "url": "file:///home/eduardo/Documentos/teste-darkside-bomdiaveronica/assets/js/api.json",
         "method": "GET",
         "headers": {
-            "content-type": "application/json",
-        }
+            "Access-Control-Allow-Headers" : "Content-Type",
+            "Access-Control-Allow-Origin": "https://www.darksidebooks.com.br",
+            "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
+        },
     }
     $.ajax(settings).done(function (response) {
         console.log(response);
@@ -16,3 +18,4 @@ $(document).ready(function () {
 
     
 });
+
