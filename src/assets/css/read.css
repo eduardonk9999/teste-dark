@@ -1,0 +1,17 @@
+/* .poster__serie{
+  max-width: 100%;
+} */
+section.read__before{
+  position: relative;
+  background: #131514;
+}
+.selo{
+  position: absolute;
+  right: 140px;
+  bottom: 0;
+}
+
+.selo img {
+  max-width: 258px;
+  width: 100%;
+}

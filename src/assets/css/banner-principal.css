@@ -1,0 +1,55 @@
+img.mx-auto.d-block.banner__serie-figure {
+  max-width: 1000px;
+}
+.wrapper__banner{
+  position: relative;
+}
+
+.banner__serie-selo{
+  width: 290px;
+  height: 290px;
+  background: var(--black);
+  text-align: center;
+  color: var(--white);
+  border-radius: 100%;
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+
+.banner__serie-selo img {
+  max-width: 200px;
+  padding-top: 80px;
+}
+
+.banner__serie-selo p {
+  font-size: 29px;
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 18px;
+}
+
+img.logo_bomdiaveronica {
+  transform: translateY(-60px);
+}
+
+.logo__darkside{
+  filter: grayscale(1);
+  max-width: 250px;
+  transform: translateY(-30px);
+}
+
+.text__infos p{
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.text__infos {
+  margin: 60px 0;
+}

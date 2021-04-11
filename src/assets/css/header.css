@@ -1,0 +1,74 @@
+header{
+  background: var(--black);
+}
+h1 img {
+  max-width: 200px;
+  transform: translateY(-5px);
+}
+
+.header-range{
+  background: transparent linear-gradient(90deg, #B30000 0%, #E50000 20%, #B30000 100%) 0% 0% no-repeat padding-box;
+}
+
+.header-range h2 {
+  color: var(--white);
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+
+  padding: 12px;
+}
+
+.search{
+  width: 26px;
+  height: 30px;
+  background: url(../imagens/sp.png) 26px 123px;
+  display: block;
+}
+.dark{
+  width: 26px;
+  height: 30px;
+  background: url(../imagens/sp.png) -157px 0px;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+
+.cart{
+  width: 28px;
+  height: 30px;
+  background: url(../imagens/sp.png) 148px 34px;
+  display: block;
+}
+
+header nav {
+  padding-top: 5px;
+}
+nav a {
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  
+  font-size: 12px;
+  display: block;
+  font-weight: 500;
+
+  transition: all .3s;
+}
+
+nav a:hover{
+  color: #fff; 
+
+  
+}
+
+.nav-icons a{
+  margin: 0px 5px;
+  
+}
+
+.header-menu{
+  height: 48px;
+}
