@@ -7,11 +7,11 @@ section.read__before{
 }
 .selo{
   position: absolute;
-  right: 140px;
-  bottom: 0;
+  right: 190px;
+  bottom: 30px;
 }
 
 .selo img {
-  max-width: 258px;
+  max-width: 208px;
   width: 100%;
 }

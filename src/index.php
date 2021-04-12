@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bom dia, Verônica, uma série original NETFLIX</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 
 <body>
@@ -117,19 +116,32 @@
 
     <section class="best__sellers">
       <div class="container">
-
+        <h3>Best Sellers <a href="#">ver rodos </a></h3>
+        <div class="scroll">
+          <div class="scroll__container">
+            <div class="books__container">
+            
+            </div>
+          </div>
+        </div>
+        <i class="fal fa-chevron-right"></i>
+        <h3>Which List Darkside <a href="#">ver rodos </a></h3>
+        <div class="scroll">
+          <div class="scroll__container">
+            <div class="books__container">
+            
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-
-  <script src="//io.vtex.com.br/vtex.js/2.0.0/extended-ajax.min.js"></script>
-  <script src="//io.vtex.com.br/vtex.js/2.0.0/catalog.min.js"></script>
-  <script src="//io.vtex.com.br/vtex.js/2.0.0/checkout.min.js"></script>
-
-  
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ 
+  <script src="assets/js/slide.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
 
