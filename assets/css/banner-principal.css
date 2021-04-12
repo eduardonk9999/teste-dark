@@ -53,3 +53,23 @@ img.logo_bomdiaveronica {
 .text__infos {
   margin: 60px 0;
 }
+
+
+
+@media(max-width: 768px){
+  .banner__serie-selo{
+    position: inherit;
+    top: inherit;
+    right: inherit;
+    margin: 0 auto;
+  }
+  img.logo_bomdiaveronica {
+    transform: inherit;
+    margin-top: 41px;
+  }
+  .logo__darkside{
+    transform: translateY(0px);
+    margin-top: 20px;
+  }
+}
+

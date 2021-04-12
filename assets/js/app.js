@@ -1,5 +1,15 @@
 $(document).ready(function () {
+  // menu mobile
+  $('a.dark.nav-link').click(function(e) {
+    e.preventDefault();
+    console.log('mobile')
+    
 
+    $('.menu__mobile').toggleClass('ativamenu')
+    $(this).toggleClass('ativeIcon')
+
+    
+  })
 
 
   var settings = {
@@ -17,6 +27,7 @@ $(document).ready(function () {
 
     let obj = JSON.parse(response)
 
+    
     for (let i = 0; i < obj.length + 1; i++) {
       let divBookSlide = `
         <div class="book">
@@ -29,10 +40,6 @@ $(document).ready(function () {
       `;
 
       bookBest.append(divBookSlide)
-
-      
-
-
     }
   });
 
@@ -40,12 +47,3 @@ $(document).ready(function () {
 
 });
 
-
-
-/*
-capa img = obj[i].items
-nome = obj[i].productName
-autor = obj[i].Autor
-
-
-*/

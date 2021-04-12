@@ -5,3 +5,13 @@
 @import "serie.css";
 @import "read.css";
 @import "books.css";
+@import "footer.css";
+
+
+@media(max-width: 768px){
+  img{
+    width: 100%;
+  }
+  
+}
+

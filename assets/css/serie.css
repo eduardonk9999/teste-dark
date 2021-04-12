@@ -49,3 +49,50 @@ img.poster {
   background: var(--color-btn-comprar);
   border: none;
 }
+
+
+@media(max-width: 768px){
+  .serie{
+    padding: 40px 100px;
+  }
+  .serie h2{
+    font-size: 46px;
+    line-height: 60px;
+  }
+  .serie p{
+    font-size: 30px;
+    line-height: 25px;
+  }
+  .btns.d-flex {
+    flex-direction: column;
+  }
+  .btns button.btn-detalhes {
+    margin-bottom: 25px;
+    display: block;
+  }
+  .btns button.comprar {
+    margin-bottom: 25px;
+    display: block;
+  }
+  .btns button{
+    max-width: 100%;
+    margin: 10px 0 !important;
+  }
+}
+
+
+
+@media(max-width: 425px){
+  .serie h2 {
+    font-size: 36px;
+    line-height: 1;
+  }
+  .serie p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .serie {
+    padding: 40px 80px;
+  }
+}
+

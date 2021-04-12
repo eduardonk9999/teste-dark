@@ -72,3 +72,93 @@ nav a:hover{
 .header-menu{
   height: 48px;
 }
+
+@media(max-width: 768px){
+  .container.header-menu{
+    display: none;
+  }
+  header .mobile{
+    display: block;
+    padding: 10px 10px;
+  
+  }
+  nav.mobile h1 {
+    text-align: center;
+    display: block;
+  }
+  .menu__mobile {
+    position: absolute;
+    height: 100vh;
+    background: #000;
+    z-index: 1;
+    width: 100%;
+    left: 700px;
+
+    display: none;
+    transition: all .3s;
+  }
+
+  .menu__mobile nav {
+      display: flex;
+      flex-direction: column;
+  }
+
+  a.dark.nav-link {
+      transform: translate(10px, -42px);
+      position: relative;
+  }
+  .menu__mobile.ativamenu {
+    left: 0;
+    border-top: 11px solid #f83f37;
+    padding-top: 21px;
+    display: block;
+    transition: all .3s;
+  }
+  nav a{
+    font-size: 30px;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  a.dark.nav-link:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    border-radius: 30px;
+    transition: all .3s;
+  }
+  a.dark.nav-link:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    border-radius: 30px;
+    transition: all .3s;
+  }
+  a.dark.nav-link.ativeIcon:after {
+    transform: rotate(45deg);
+    top: 31px;
+    transition: all .3s;
+  }
+
+  a.dark.nav-link.ativeIcon:before {
+      top: 31px;
+      transform: rotate(-42deg);
+      transition: all .3s;
+  }
+}
+
+.mobile{
+  display: none;
+}
